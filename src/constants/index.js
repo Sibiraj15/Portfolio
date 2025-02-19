@@ -87,7 +87,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "49/B North street, Parvathipuram, Vadalur, Cuddalore, Tamilnadu",
+  address: "49/B North street, Parvathipuram, Vadalur, Cuddalore District, Tamilnadu",
   phoneNo: "+91 8608587515 ",
   email: "ssibiraj64@gmail.com",
 };
