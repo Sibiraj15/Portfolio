@@ -13,11 +13,11 @@ export const EXPERIENCES = [
    description: "I completed a 3-month internship at Netkathir Technologies as a React Developer, where I gained hands-on experience in building dynamic and scalable web applications through an intensive React development course."
   },
   {
-    title: "Testing  – Netkathir Technologies (1 Month)",
+    title: "Testing  (1 Month)",
     description: "I then worked for 1 month as a Testing Intern, focusing on testing web and mobile applications for functionality, performance, and user experience. During this time, I worked on projects like Nuterm (a tutor application), Yomizo (an advertisement website), and HEB (an event organization platform).",
   },
   {
-    title: "Web Development  – Netkathir Technologies (1 Month)",
+    title: "Web Development  (1 Month)",
     description: "Additionally, I spent 1 month as a Web Development Intern, contributing to the development and optimization of web applications for HR.Netkathir Technologies. My work focused on UI/UX improvements and enhancing web functionalities for better performance.",
   },
   
