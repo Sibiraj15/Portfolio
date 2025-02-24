@@ -64,6 +64,13 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
+    title: "NOTE APP",
+    image: project4,
+    description:
+      "A full-stack MERN Note App List app with user authentication, task management, and real-time updates. 🚀",
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+  },
+  {
     title: "Talent Hub",
     image: project2,
     description:
