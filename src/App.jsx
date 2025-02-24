@@ -5,6 +5,7 @@ import Projects from "./component/Projects";
 import Experiences from "./component/Experiences";
 import Education from "./component/Education";
 import Contact from "./component/Contact";
+import Tools from "./component/Tools";
 const  App=() =>{
   return (
     <div className="overflow-x-hidden text-stone-300 antialiased">
@@ -21,6 +22,7 @@ const  App=() =>{
       <Hero />
       <Education />
       <Technologies />
+      <Tools />
       <Projects />
       <Experiences />
       <Contact />
