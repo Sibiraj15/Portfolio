@@ -1,7 +1,9 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import project1 from "../assets/projects/todo.png";
+import project2 from "../assets/projects/note.png";
+import project3 from "../assets/projects/portfolio.png";
+import project4 from "../assets/projects/car.png";
+import project5 from "../assets/projects/job.png";
+import project6 from "../assets/projects/blog.png";
 
 export const HERO_CONTENT = `I am a passionate beginner full-stack developer eager to build scalable and user-friendly web applications. With 3 months of internship experience, I have developed a strong foundation in HTML, CSS, JavaScript, React, Node.js, MySQL, and MongoDB. I love learning new technologies and solving problems through code, aiming to create efficient and impactful digital solutions.`;
 
@@ -56,26 +58,36 @@ export const EDUCATION =[
 
 
 export const PROJECTS = [
+
+  {
+  title: "Blog Website",
+  image: project6,
+  description:
+    "A dynamic MERN-based blog platform enabling users to create, edit, and manage posts seamlessly. Features include secure authentication, a responsive and modern UI, and real-time content updates for an engaging writing and reading experience. 📖✨",
+  technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
+  link: "https://blog-app-azure-zeta.vercel.app/"
+},
+
   {
     title: "TODO List",
     image: project1,
     description:
       "A full-stack MERN To-Do List app with user authentication, task management, and real-time updates. 🚀",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "CSS", "React", "Node.js","Express", "MongoDB"],
   },
   {
     title: "NOTE APP",
-    image: project4,
+    image: project2,
     description:
       "A full-stack MERN Note App List app with user authentication, task management, and real-time updates. 🚀",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "CSS", "React", "Node.js","Express", "MongoDB"],
   },
   {
     title: "Talent Hub",
-    image: project2,
+    image: project5,
     description:
       "A Talent hub is an online platform that connects job seekers with employers, streamlining job search and recruitment.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "CSS", "React", "Node.js","Express", "MongoDB"],
   },
   {
     title: "Portfolio Website",
