@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/todo.png";
+import project1 from "../assets/projects/grocery.png";
 import project2 from "../assets/projects/note.png";
 import project3 from "../assets/projects/portfolio.png";
 import project4 from "../assets/projects/car.png";
@@ -59,41 +59,43 @@ export const EDUCATION =[
 
 export const PROJECTS = [
 
+ 
+
   {
+    title: "Grocery App",
+    image: project1,
+    description:
+      "A feature-rich MERN-based grocery app allowing users to browse, add, and manage products effortlessly. Includes secure authentication, a sleek and responsive interface, shopping cart functionality, and real-time updates to ensure a smooth and convenient shopping experience. 🛒✨",
+    technologies: ["React.Js", "Node.Js","Express", "MongoDB"],
+  },
+   {
   title: "Blog Website",
   image: project6,
   description:
     "A dynamic MERN-based blog platform enabling users to create, edit, and manage posts seamlessly. Features include secure authentication, a responsive and modern UI, and real-time content updates for an engaging writing and reading experience. 📖✨",
-  technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
+  technologies: [ "React.Js", "Node.Js", "Express", "MongoDB"],
   link: "https://blog-app-azure-zeta.vercel.app/"
 },
-
-  {
-    title: "TODO List",
-    image: project1,
-    description:
-      "A full-stack MERN To-Do List app with user authentication, task management, and real-time updates. 🚀",
-    technologies: ["HTML", "CSS", "React", "Node.js","Express", "MongoDB"],
-  },
-  {
-    title: "NOTE APP",
-    image: project2,
-    description:
-      "A full-stack MERN Note App List app with user authentication, task management, and real-time updates. 🚀",
-    technologies: ["HTML", "CSS", "React", "Node.js","Express", "MongoDB"],
-  },
+ 
   {
     title: "Talent Hub",
     image: project5,
     description:
-      "A Talent hub is an online platform that connects job seekers with employers, streamlining job search and recruitment.",
+"A Talent Hub is a comprehensive online platform that seamlessly connects job seekers with employers, streamlining the entire job search and recruitment process. It enables users to create detailed profiles, explore relevant job opportunities, and apply efficiently, while employers can post openings, manage applications, and identify the best-fit candidates. With a user-friendly interface, real-time updates, and smart matching features, Talent Hub enhances the recruitment experience for both job seekers and employers.",
+    technologies: ["HTML", "CSS", "React", "Node.js","Express", "MongoDB"],
+  },
+   {
+    title: "NOTE APP",
+    image: project2,
+    description:
+      "A full-stack MERN Notes App that allows users to create, edit, and organize notes efficiently. Features include secure user authentication, task management, and real-time updates, all wrapped in a clean and responsive interface for a seamless note-taking experience. 📝✨. 🚀",
     technologies: ["HTML", "CSS", "React", "Node.js","Express", "MongoDB"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "A personal portfolio website designed to showcase my projects, highlight technical skills, and provide an easy way to connect. Featuring a modern, responsive design, intuitive navigation, and interactive elements to create a professional and engaging online presence. 💻✨",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
